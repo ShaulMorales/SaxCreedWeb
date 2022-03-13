@@ -1,0 +1,162 @@
+
+body{   
+    background:rgb(20, 20, 24);
+    font-family: 'Oswald', sans-serif;
+}
+header {   
+    background-image: linear-gradient(to bottom, rgb(212, 56, 35), rgb(50, 0, 0));
+    color:white;
+    padding: 1rem 3rem;
+    margin: 0 -15px;
+}
+.logo {
+    width: 150px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*-----------------------------------------Menu-----------------------------------*/
+.nav-main{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    font-size: 23px;
+    padding: 0px 0;
+    background-image: linear-gradient(to bottom,rgb(50, 0, 0), rgb(20, 20, 24));
+}
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li{
+    padding: 15px;
+}
+.nav-main ul li a{
+    padding: 19px;
+    transition: .4s;
+}
+.nav-main ul li a:hover{
+    background:rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 20px
+    rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255);
+    color: black;
+    border-radius: 0.1rem;
+}
+
+/*------------------------------------Img de 1-------------------------------------*/
+.home-img{
+    width: 1200PX;
+    height: 600px;
+    background:url(./img/PUBLICIDAD\ 1.png)no-repeat center center/cover ;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px  0px 0px black,
+                 0px  1px 0px black,
+                -1px  0px 0px black,
+                 0px -1px 0px black;
+    }
+.btn {
+    cursor:pointer;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: rgb(20, 20, 24);
+    color: white;
+    font-size: 23px;
+    border: 3px solid black;
+    margin: 20px;
+}
+.btn:hover{
+    color: black;
+    background: rgb(212, 56, 35);
+    background-image: linear-gradient(to bottom,rgb(212, 56, 35));
+        box-shadow: 0 0 5px rgb(212, 56, 35), 0 0 20px
+        rgb(212, 56, 35), 0 0 40px rgb(212, 56, 35);
+}
+NAV .IMDV{
+    position: left;
+}
+/*------------------------------------characters-------------------------------------------*/
+hr{
+    margin: 15px;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+section.character article{
+  float:left;
+  background: aliceblue;
+  width: 300px;
+  height: 400px;
+  margin: 15px;
+}
+section.character article img{
+    border-radius: 0.5rem;
+    padding: 1px 0;
+    cursor: pointer;
+    margin: 2rem 3rem;
+  }
+section.character article h2{
+    text-align: center
+}
+section.character article a{
+  color:rgb(0, 0, 0);
+  font-size: 50px;
+  text-align: center;
+  margin-left: 33%;
+  margin-right: 50%;
+  transition: .5s;
+  
+  }
+  section.character article a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px  0px 0px black,
+                 0px  1px 0px black,
+                -1px  0px 0px black,
+                 0px -1px 0px black;
+    background: radial-gradient(ellipse,rgb(82, 80, 80),rgb(124, 130, 136),rgb(159, 167, 175),aliceblue,aliceblue);
+ }
+ /*-------------------------------------------Redes--------------------------------------------*/
+ section.redes article{
+     background: black;
+     width: 400px;
+     height: 400px;
+     margin: 75px;
+     vertical-align: text-bottom;
+     float:left;   
+     box-shadow: 0 0 2px rgb(255, 255, 255);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: end;
+ }
+ section.redes article a{ 
+    font-weight: bold;
+    font-size: 35px;
+    background: black;
+    box-shadow: 0 0 2px rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 27px;
+    transition: .5s;
+}
+section.redes article a:hover{ 
+    color:black;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 20px
+    rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255)
+}

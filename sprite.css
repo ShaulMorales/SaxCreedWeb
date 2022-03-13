@@ -1,0 +1,82 @@
+
+body{   
+    background:rgb(20, 20, 24);
+    font-family: 'Oswald', sans-serif;
+}
+header {   
+    background-image: linear-gradient(to bottom, rgb(212, 56, 35), rgb(50, 0, 0));
+    color:white;
+    padding: 1rem 3rem;
+    margin: 0 -15px;
+}
+.logo {
+    width: 150px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*--------------------------------------------Menus----------------------------------------*/
+.nav-main{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    font-size: 23px;
+    padding: 0px 0;
+    background-image: linear-gradient(to bottom,rgb(50, 0, 0), rgb(20, 20, 24));
+}
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li{
+    padding: 15px;
+}
+.nav-main ul li a{
+    padding: 19px;
+    transition: .4s;
+}
+.nav-main ul li a:hover{
+    background:rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 20px
+    rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255);
+    color: black;
+    border-radius: 0.1rem;
+}
+/*-----------------------------------------------Sprites--------------------------------------*/
+div article {
+    width: 500px; 
+    float:left;
+    transition: box-shadow 0.3s ease;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    padding: 1px 0;
+    cursor: pointer;
+    margin: 2rem 1rem;
+    color:black;
+ }
+ article img{
+ max-width: 100%;
+ -moz-transition: all 0.3s;
+ -webkit-transition: all 0.3s;
+ transition: all 0.3s;
+ }
+ article img:hover{
+     -moz-transform: scale(1.1);
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+ }
+ section article:hover {
+     box-shadow: 0 0.3rem 0.8rem rgb(0, 0, 0);
+ }
+ section article h2 {
+     margin: 8px;
+ }
+ section article P {
+     margin: 8px;
+     
+ }
